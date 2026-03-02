@@ -41,7 +41,7 @@ export default function Home() {
           <a
             href="http://127.0.0.1:7860"
             target="_blank"
-            className="border border-accent px-6 py-3 rounded-xl hover:bg-accent hover:text-black transition"
+            className="border border-accent px-6 py-3 rounded-xl hover:bg-accent hover:text-white transition"
           >
             Launch Agent App
           </a>
@@ -50,7 +50,7 @@ export default function Home() {
 
       </section>
 
-            {/* PROBLEM VS SOLUTION */}
+      {/* PROBLEM VS SOLUTION */}
       <section className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
 
         <motion.div
@@ -91,7 +91,7 @@ export default function Home() {
 
       </section>
 
-            {/* ARCHITECTURE SECTION */}
+      {/* ARCHITECTURE SECTION */}
       <section
         id="architecture"
         className="max-w-6xl mx-auto text-center space-y-16"
@@ -165,7 +165,7 @@ export default function Home() {
         </div>
       </section>
 
-            {/* AGENTS SECTION */}
+      {/* AGENTS SECTION */}
       <section className="max-w-6xl mx-auto space-y-16 text-center">
 
         <motion.h2
@@ -173,7 +173,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
+          className="text-4xl font-bold bg-linear-to-r from-primary to-accent bg-clip-text text-transparent"
         >
           Specialized AI Agents
         </motion.h2>
